@@ -113,6 +113,7 @@ nav > span > #navLogo{
     display: block;
     text-decoration: none;
     color: white;
+    text-align: center;
 }
 .contacts > .title{
     font-family: "Orbitron", sans-serif;
@@ -148,7 +149,7 @@ nav > span > #navLogo{
 @media only screen and (max-width: 750px){
     .main{
         height: 80vh;
-        /* padding-bottom: 50px; */
+        padding-bottom: 50px;
     }
     nav{
         padding-top: 20px;
@@ -176,16 +177,20 @@ nav > span > #navLogo{
         /* display: none; */
     }
     .contacts > .contentSec{
+        padding-top: 50px;
         grid-template-columns: 1fr;
         grid-template-rows: 2fr;
     }
     .contacts > .contentSec > .addressInfo{
         grid-column: 1/2;
         grid-row: 2/3;
-        width: 50vw;
+        width: 90vw;
     }
     .contacts > .contentSec > .contactInfo{
-        width: 50vw;
+        width: 90vw;
+    }
+    .contacts > .title{
+        font-size: 30px;
     }
     .contacts > .contentSec > .contactInfo > .title, .contacts > .contentSec > .addressInfo > .title{
         font-size: 24px;
