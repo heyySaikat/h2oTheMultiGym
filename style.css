@@ -65,6 +65,7 @@ nav > span > #navLogo{
     height: 40px;
     background-color: transparent;
     color: white;
+    font-family: "Outfit", sans-serif;
 }
 .mainInfoOrange, .mainInfo{
     position: relative;
