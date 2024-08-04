@@ -168,6 +168,9 @@ nav > span > #navLogo{
     .content{
         margin-top: 190px;
     }
+    .infoTextTop{
+        width : 95vw;
+    }
     .mainInfoOrange, .mainInfo{
         font-size: 40px;
     }
