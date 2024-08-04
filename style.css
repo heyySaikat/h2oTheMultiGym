@@ -173,10 +173,10 @@ nav > span > #navLogo{
         width: 95%;
     }
     .mainInfoOrange, .mainInfo{
-        font-size: 40px;
+        font-size: 37px;
     }
     .infoTextBottom{
-        width: 70vw;
+        width: 90%;
         text-align: justify;
         /* display: none; */
     }
